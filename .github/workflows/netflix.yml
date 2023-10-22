@@ -50,7 +50,7 @@ jobs:
          - name: Trivy image scan
            run: trivy image moonabid/netflix:latest
          - name: Run the container netflix
-           run: docker run -d --name netflix -p 8081:80 moonabid/netflix:latest
+           run: docker run -d --name netflixr -p 8081:80 moonabid/netflix:latest
 
           
     
